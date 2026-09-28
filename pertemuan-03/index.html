@@ -20,7 +20,7 @@
         <section id="home">
             <h2>Selamat datang</h2>
             <p>Halo, saya Joevrell Cleonaldo Liong. Saya sedang mempelajari Pemrograman Web Dasar.</p>
-            <img src="img/Foto-profil.jpeg" alt="Foto profil Joevrell Cleonaldo Liong">
+            <img src="img/Foto-profil.jpg" alt="Foto profil Joevrell Cleonaldo Liong">
             </section>
 
         <section id="about">
@@ -41,6 +41,82 @@
         <section id="contact">
             <h2>Kontak</h2>
             <p>Kunjungi <a href="https://github.com/ikan565">Profil GitHub saya</a></p>
+            <form action="index.html" method="get">
+                <div class="form-group">
+                    <label for="name">Nama:</label><br>
+                    <input class="input-form"
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama lengkap"
+                    minlength="3"
+                    maxlenght="50"
+                    required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input class="input-form"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="name@email.com"
+                    required>
+
+                </div>
+                <div class="form-group">
+                    <label for="Semester">Semester:</label><br>
+                    <input class="input-form"
+                    type="number"
+                    id="semester"
+                    name="semester"
+                    min="1"
+                    max="14"
+                    required>
+
+                </div>
+
+                <div class="form-group">
+                <label for="tanggal">Tanggal Kunjungan</label><br>
+                <input class="input-form"
+                    type="date"
+                    id="tanggal"
+                    name="tanggal"
+                    required>
+
+                </div>
+<div class="form-group">
+<p>Jenis Pesan</p>
+<input type="radio" id="pertanyaan" name="jenis_pesan"
+value="pertanyaan" required>
+<label for="pertanyaan">Pertanyaan</label>
+<input type="radio" id="saran" name="jenis_pesan"
+value="saran">
+<label for="saran">Saran</label>
+</div>
+<div class="form-group">
+<p>Topik yang Diminati</p>
+<input type="checkbox" id="minat-html" name="minat" value="HTML">
+<label for="minat-html">HTML</label>
+<input type="checkbox" id="minat-css" name="minat" value="CSS">
+<label for="minat-css">CSS</label>
+</div>
+<div class="form-group">
+<label for="prodi">Program Studi</label><br>
+<select class="input-form" id="prodi" name="prodi" required>
+<option value="">-- Pilih Program Studi --</option>
+<option value="SI">Sistem Informasi</option>
+<option value="TI">Teknik Informatika</option>
+</select>
+</div>
+<div class="form-group">
+<label for="pesan">Pesan</label><br>
+<textarea class="input-form"
+id="pesan"
+name="pesan"
+maxlength="300"
+placeholder="Tulis pesan Anda"
+required></textarea>
+
         </section>
     </main>
 
