@@ -6,7 +6,7 @@
 
 ## Implementasi Formulir
 - Elemen form yang digunakan: [form, label, input, select, option, textarea, button]
-- Tipe input yang digunakan: [text, email, number, date, radio, checkboxl 5]
+- Tipe input yang digunakan: [text, email, number, date, radio, checkbox ]
 - Atribut validasi yang digunakan:[required, minlength, maxlength, min, max]
 
 ## Pengujian GET dan POST
