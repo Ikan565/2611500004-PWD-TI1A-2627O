@@ -6,7 +6,7 @@
 
 # Pengujian
 
-## Perangkat bergerak: 369px (preset iphone 15 pro pro di Browser DevTools). Navigasi tersusun vertikal, bagian Home, Tentang Saya, dan Kontak tersusun dalam satu kolom dari atas ke bawah. Bagian Selamat datang dan tentang saya menjadi 2 kolom. Seluruh konten sampai footer terlihat, formulir dapat digunakan.
+## Perangkat bergerak: 360px (preset iphone 15 pro pro di Browser DevTools). Navigasi tersusun vertikal, bagian Home, tersusun dalam satu kolom dari atas ke bawah. Seluruh konten sampai footer terlihat, formulir dapat digunakan.
 
 ## Desktop: 1032px (preset iPad Pro 13 di Browser DevTools). Navigasi tersusun horizontal, Home dan Tentang Saya berdampingan dalam dua kolom, dan Kontak membentang penuh di bawahnya. Jarak antar-elemen konsisten dan tidak ada tata letak yang rusak.
 
