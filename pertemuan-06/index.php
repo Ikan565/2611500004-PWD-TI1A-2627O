@@ -227,7 +227,7 @@ $nomorSemester++; // operator penugasan
     </main>
 
     <footer>
-        <p>&copy; 2026 Joevrell Cleonaldo Liong 2611500004 </p>
+        <p>&copy; <?= date("Y") ?> <?php echo $namaMahasiswa; ?> [<?= $nim ?>]</p>
     </footer>
 <script src="script.js"></script>
 </body>
