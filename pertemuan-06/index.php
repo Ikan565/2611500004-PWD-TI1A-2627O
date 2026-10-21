@@ -111,11 +111,22 @@ const PROFIL_GITHUB = "ikan565";
             }
             echo "</li>";
             }
-                ?>
-                </ol>
+            ?>
+            </ol>
+
+<h3>Semester (Perulangan while):</h3>
+<ol>
+<?php
+$nomorSemester = 1;
+while ($nomorSemester <= 3) {
+echo "<li>Semester " . $nomorSemester . "</li>";
+$nomorSemester++; // operator penugasan
+}
+?>
+</ol>
+
             </article>
         </section>
-
         <section id="contact">
             <h2>Kontak</h2>
             <p>
