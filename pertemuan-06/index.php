@@ -7,9 +7,17 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<p>Konten HTML statis.</p>
 <?php
-echo "<p>Konten yang dihasilkan oleh PHP.</p>";
+// P6: PHP dasar dan pemrograman sisi peladen
+// Bagian 1: Variabel dan konstanta
+$nim = "2611500004";
+$namaMahasiswa = "Joevrell ";
+$programStudi = "Teknik Informatika";
+$tahunAkademik = "2026/2027";
+$semester = 1;
+$ipk = 3.75;
+$statusAktif = true;
+$catatanTambahan = null;
 ?>
     <header>
         <div class="header-top"
