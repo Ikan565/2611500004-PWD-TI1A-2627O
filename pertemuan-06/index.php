@@ -11,13 +11,16 @@
 // P6: PHP dasar dan pemrograman sisi peladen
 // Bagian 1: Variabel dan konstanta
 $nim = "2611500004";
-$namaMahasiswa = "Joevrell ";
+$namaMahasiswa = "Joevrell Cleonaldo Liong";
 $programStudi = "Teknik Informatika";
 $tahunAkademik = "2026/2027";
 $semester = 1;
 $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
+
+const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
+const PROFIL_GITHUB = "ikan565";
 ?>
     <header>
         <div class="header-top"
