@@ -12,7 +12,7 @@
 // Bagian 1: Variabel dan konstanta
 $nim = "2611500004";
 $namaMahasiswa = "Joevrell Cleonaldo Liong";
-$programStudi = "Teknik Informatika";
+$programStudi = "TI";
 $tahunAkademik = "2026/2027";
 $semester = 1;
 // Bagian 2: Operator
@@ -24,6 +24,18 @@ $catatanTambahan = null;
 
 $semesterValid = $semester >= 1 && $semester <= $batasSemester;
 $statusSemester = ($semesterValid && $statusAktif) ? "Sesuai rentang" : "Perlu diperiksa";
+
+// Bagian 3: Percabangan if-elseif-else
+if ($semester < 3) {
+$keteranganSemester = "Semester awal";
+} elseif ($semester <= 6) {
+$keteranganSemester = "Semester menengah";
+} else {
+$keteranganSemester = "Semester akhir";
+}
+
+$namaProdi = ($programStudi == "SI") ? "Sistem Informasi" : (($programStudi == "TI") ? "Teknik
+Informatika" : "Lainnya");
 
 const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
 const PROFIL_GITHUB = "ikan565";
@@ -68,6 +80,9 @@ const PROFIL_GITHUB = "ikan565";
              <p>Saya mahasiswa Program studi Teknik Informatika.</p>
             <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
             <p>Pemeriksaan rentang semester: <?php echo $statusSemester; ?></p>
+            <p>Semester: <?php echo $semester . " (" . $keteranganSemester . ")"; ?></p>
+            <p>Program Studi: <?php echo $namaProdi . " (" . $programStudi . ")"; ?></p>
+            <p>Status mahasiswa: <?php echo $statusAktif ? "Aktif" : "Tidak aktif"; ?></p>
             
 
 
