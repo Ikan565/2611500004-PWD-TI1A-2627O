@@ -22,6 +22,9 @@ $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
 
+$semesterValid = $semester >= 1 && $semester <= $batasSemester;
+$statusSemester = ($semesterValid && $statusAktif) ? "Sesuai rentang" : "Perlu diperiksa";
+
 const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
 const PROFIL_GITHUB = "ikan565";
 ?>
@@ -64,6 +67,8 @@ const PROFIL_GITHUB = "ikan565";
             <h3>Profil singkat</h3>             
              <p>Saya mahasiswa Program studi Teknik Informatika.</p>
             <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
+            <p>Pemeriksaan rentang semester: <?php echo $statusSemester; ?></p>
+            
 
 
             <h3>Target Belajar</h3>
