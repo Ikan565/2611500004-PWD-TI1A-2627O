@@ -15,6 +15,9 @@ $namaMahasiswa = "Joevrell Cleonaldo Liong";
 $programStudi = "Teknik Informatika";
 $tahunAkademik = "2026/2027";
 $semester = 1;
+// Bagian 2: Operator
+$batasSemester = 8;
+$sisaSemester = $batasSemester - $semester;
 $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
@@ -58,8 +61,10 @@ const PROFIL_GITHUB = "ikan565";
         <section id="about">
             <h2>Tentang saya</h2>
             <article>
-            <h3>Profil singkat</h3>
-              <p>Saya mahasiswa Program studi Teknik Informatika.</p>
+            <h3>Profil singkat</h3>             
+             <p>Saya mahasiswa Program studi Teknik Informatika.</p>
+            <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
+
 
             <h3>Target Belajar</h3>
               <ol>
