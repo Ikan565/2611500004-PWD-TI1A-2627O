@@ -84,6 +84,8 @@ const PROFIL_GITHUB = "ikan565";
             <p>Program Studi: <?php echo $namaProdi . " (" . $programStudi . ")"; ?></p>
             <p>Status mahasiswa: <?php echo $statusAktif ? "Aktif" : "Tidak aktif"; ?></p>
             <p>IPK: <?php echo number_format($ipk, 2, ',', '.'); ?></p>
+            <p>Catatan tambahan: <?php echo $catatanTambahan === null ? "Belum ada" : $catatanTambahan;
+            ?></p>
             
 
 
