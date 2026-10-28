@@ -194,6 +194,7 @@ switch ($programStudi) {
 				<div class="form-group">
 					<p>Topik yang Diminati</p>
 
+					
 					<input type="checkbox" id="minat-html" name="minat" value="HTML" />
 					<label for="minat-html">HTML</label>
 
