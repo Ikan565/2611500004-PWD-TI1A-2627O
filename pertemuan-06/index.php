@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil mahasiswa</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
 <?php
 // P6: PHP dasar dan pemrograman sisi peladen
 // Bagian 1: Variabel dan konstanta
@@ -15,13 +6,15 @@ $namaMahasiswa = "Joevrell Cleonaldo Liong";
 $programStudi = "TI";
 $tahunAkademik = "2026/2027";
 $semester = 1;
-// Bagian 2: Operator
-$batasSemester = 8;
-$sisaSemester = $batasSemester - $semester;
 $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
 
+const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
+const PROFIL_GITHUB = "ikan565";
+// Bagian 2: Operator
+$batasSemester = 8;
+$sisaSemester = $batasSemester - $semester;
 $semesterValid = $semester >= 1 && $semester <= $batasSemester;
 $statusSemester = ($semesterValid && $statusAktif) ? "Sesuai rentang" : "Perlu diperiksa";
 
@@ -37,9 +30,29 @@ $keteranganSemester = "Semester akhir";
 $namaProdi = ($programStudi == "SI") ? "Sistem Informasi" : (($programStudi == "TI") ? "Teknik
 Informatika" : "Lainnya");
 
-const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
-const PROFIL_GITHUB = "ikan565";
+switch ($programStudi) {
+	case "SI":
+		$fokusProgramStudi = "Sistem informasi dan proses bisnis";
+		break;
+	case "TI":
+		$fokusProgramStudi = "Komputasi dan pengembangan perangkat lunak";
+		break;
+	default:
+		$fokusProgramStudi = "Belum ditentukan";
+}
 ?>
+<!doctype html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Profil Mahasiswa</title>
+	<link rel="stylesheet" href="style.css" />
+    </head>
+
+<body>
+
     <header>
         <div class="header-top"
             <h1>Profil Mahasiswa</h1>
