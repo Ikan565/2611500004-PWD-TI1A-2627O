@@ -144,9 +144,10 @@ $nomorSemester++; // operator penugasan
             Kunjungi
             <a target="_blank" href="https://github.com/<?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
             </p>
-               <form id="contactForm" action="index.html" method="get" novalidate>
+               <form id="contactForm" action="index.php" method="get" novalidate>
  <div class="form-group">
  <label for="nama">Nama Lengkap</label><br />
+
  <input
  class="input-form"
  type="text"
@@ -229,6 +230,7 @@ $nomorSemester++; // operator penugasan
           </div>
           <button type="submit">Kirim</button>
           <button type="reset">Batal</button>
+          <p id="formFeedback"></p>
         </form>
         </section>
 
