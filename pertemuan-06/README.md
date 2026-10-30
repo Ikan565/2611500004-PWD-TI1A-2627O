@@ -1,20 +1,18 @@
+# pertemuan-06
 
-# Hasil Pengujian Program PHP
-
-## Tag PHP, Ekstensi Berkas .php, dan Penyisipan PHP dalam HTML
-Pengujian berhasil dilakukan dengan menggunakan tag PHP pada berkas berekstensi .php yang disisipkan ke dalam struktur HTML. Kode PHP dapat dieksekusi dengan baik melalui localhost, dan hasil keluarannya berhasil ditampilkan pada halaman web sesuai dengan yang diharapkan.
-
-## Komentar, echo, dan print untuk Menghasilkan Keluaran
-Pengujian penggunaan komentar, echo, dan print berhasil dilakukan. Perintah echo dan print dapat menampilkan teks pada halaman web localhost dengan benar, sedangkan komentar dapat digunakan untuk memberikan keterangan pada kode tanpa ditampilkan sebagai keluaran di halaman web. Seluruh pengujian berjalan dengan lancar.
-
-## Deklarasi dan Penggunaan Variabel PHP
-Pengujian deklarasi dan penggunaan variabel PHP berhasil dilakukan. Variabel dapat dideklarasikan dengan tanda $ dan digunakan untuk menyimpan serta menampilkan data sesuai kebutuhan program. Kode dapat dijalankan dengan baik tanpa ditemukan galat sintaks, termasuk kesalahan penulisan titik koma pada akhir pernyataan.
-
-## Konstanta PHP dan Penggunaannya dalam Halaman Web
-Pengujian konstanta PHP berhasil dilakukan. Konstanta dapat dideklarasikan dan digunakan untuk menyimpan nilai tetap yang diperlukan dalam program. Nilai konstanta berhasil dipanggil dan ditampilkan pada halaman web tanpa ditemukan galat selama proses pengujian.
-
-## Penggunaan Variabel dan Konstanta untuk Menghasilkan Konten Halaman Profil Mahasiswa
-Pengujian penggunaan variabel dan konstanta pada halaman profil mahasiswa berhasil dilakukan. Data mahasiswa yang disimpan dalam variabel dan konstanta dapat ditampilkan dengan benar pada halaman web. Selain itu, tautan menuju profil yang dituju telah mengarah ke alamat yang sesuai. Hasil pengujian menunjukkan bahwa konten halaman profil dapat ditampilkan sebagaimana mestinya.
-
-## Operator Aritmetika dan Penugasan
-Pengujian operator aritmetika dan penugasan berhasil dilakukan. Operasi perhitungan dan pemberian nilai pada variabel dapat dijalankan sesuai dengan fungsi masing-masing operator. Hasil perhitungan ditampilkan dengan benar pada halaman web localhost dan tidak ditemukan galat yang mengganggu jalannya program.
+## Hasil pengujian :
+Tag PHP, Ekstensi Berkas .php , dan Penyisipan PHP dalam HTML : PHP BERHASIL DIJALANKAN MUNCUL DI web LOCALHOST.
+Komentar, echo , dan print untuk Menghasilkan Keluaran : Uji coba echo & print berhasil dna muncul di web localhost.
+Deklarasi dan Penggunaan Variabel PHP : Berhasil,tidak ada galat yang ditemukan, titik koma lengkap.
+Konstanta PHP dan Penggunaannya dalam Halaman Web : Berhasil,tidak ada galat yang ditemukan, titik koma lengkap.
+Penggunaan Variabel dan Konstanta untuk Menghasilkan Konten Halaman Profil Mahasiswa : berhasil,tidak ditemukan galat, Link profil yang dituju sudah benar
+Operator Aritmetika dan Penugasan : berhasil,tidak ditemukan galat
+Operator Perbandingan : Perbandingan berhasil, tidak ada galat yang di temukan, operator sesuai dengan semester.
+Percabangan if - elseif - else : pengujian berhasil, tidak ada galat yang ditemukan, berjalan sesuai yang di harapkan, semester 1 yaitu semester awal.
+ Percabangan switch - case - default : pengujian berhasil, tidak ada galat yang ditemukan, berjalan sesuai yang di harapkan
+ Perulangan for untuk Menampilkan Target Belajar : pengujian berhasil, tidak ada galat yang ditemukan, berjalan sesuai yang di harapkan
+ Perulangan while untuk Menampilkan Nomor Semester : Pengujian berhasil, tidak ada galat yang ditemukan, berjalan sesuai yang di harapkan.
+ Menampilkan IPK dengan number_format() : Pengujian berhasil, tidak asda galat yang di temukan, berjalan sesuai dengan harapan.
+ Memeriksa Nilai NULL : Pengujian berhasil, tidak ada galat yang di temukan, berjalan sesuai dengan harapan.
+ Menampilkan Tahun dengan Fungsi date() : Pengujian berhasil, tidak ada galat yang di temukan, berjalan sesuai dengan harapan.
+ Sintaks Keluaran Singkat <?= ... ?>
