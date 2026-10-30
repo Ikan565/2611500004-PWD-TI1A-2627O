@@ -15,4 +15,9 @@ Menerima Data Formulir Menggunakan $_POST : Pada pengujian post parameter tidak 
 Mengakses Data dari Berbagai Jenis Input Formulir : Ketika di Pengujian dengan hanya memilih satu topik minat, baik HTML maupun CSS mengenali pilihan tersebut.
 pengujian tanpa memilih topik minat : validasi menampilkan pesan bahwa pengguna harus memilih minimal satu topik.
 
-
+Mengamankan Keluaran HTML 
+Tahap 1 menampilkan pesan kesalahan validasi: Ketika mencoba mengirim pesan Nama lengkap wajib diisi. Email wajib
+diisi. Semester wajib diisi. Tanggal kunjungan wajib diisi. Jenis pesan wajib dipilih. Program
+studi wajib dipilih. Pesan wajib diisi. Minat wajib dipilih minimal satu. Jenis pesan tidak
+valid. Program studi tidak valid. muncul, Ketika mengirim semua menggunakan email yang tidak valid, menampilkan Email tidak valid.
+Tahap 2 - Menampilkan data yang diterima melalui POST : Setelah dikirim menampilkan data yang diterima oleh peladen 
