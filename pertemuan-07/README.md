@@ -12,6 +12,7 @@ Mengubah formulit dari get menjadi Post : Berhasil,ketika di view souce, Method 
 
 Menerima Data Formulir Menggunakan $_POST : Pada pengujian post parameter tidak menampilkan parameter dan langsung menampilan Nama yang di terima http://localhost/PWD/2627O/TI1A/2611500004-PWD-TI1A-2627O/pertemuan-07/index.php
 
-
+Mengakses Data dari Berbagai Jenis Input Formulir : Ketika di Pengujian dengan hanya memilih satu topik minat, baik HTML maupun CSS mengenali pilihan tersebut.
+pengujian tanpa memilih topik minat : validasi menampilkan pesan bahwa pengguna harus memilih minimal satu topik.
 
 
