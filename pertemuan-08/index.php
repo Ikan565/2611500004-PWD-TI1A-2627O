@@ -1,6 +1,36 @@
 <?php
 session_start();
 
+// Pemrosesan form Rencana Kegiatan (POST)
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['btn_simpan'])) {
+    
+    // Sanitasi dan normalisasi masukan
+    $nama      = trim($_POST['nama_kegiatan']);
+    $kategori  = trim($_POST['kategori_kegiatan']);
+    $tanggal   = trim($_POST['tanggal_pelaksanaan']);
+    $lokasi    = trim($_POST['lokasi_kegiatan']);
+    $deskripsi = trim($_POST['deskripsi_kegiatan']);
+
+    // Validasi sisi peladen menggunakan PHP
+    if (empty($nama) || empty($kategori) || empty($tanggal) || empty($lokasi) || empty($deskripsi)) {
+        $_SESSION['error_kegiatan'] = "Semua kolom Rencana Kegiatan wajib diisi!";
+    } else {
+        // Simpan data ke session untuk ditampilkan kembali (Pola PRG)
+        $_SESSION['hasil_kegiatan'] = [
+            'nama'      => $nama,
+            'kategori'  => $kategori,
+            'tanggal'   => $tanggal,
+            'lokasi'    => $lokasi,
+            'deskripsi' => $deskripsi
+        ];
+        $_SESSION['sukses_kegiatan'] = "Data rencana kegiatan berhasil dikirim!";
+    }
+
+    // Redirect kembali ke section rencana-kegiatan
+    header("Location: index.php#Rencana-Kegiatan");
+    exit();
+}
+
 // P7: Memproses data formulir dan menyimpannya ke dalam session.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 	$nama = trim((string) ($_POST["nama"] ?? ""));
