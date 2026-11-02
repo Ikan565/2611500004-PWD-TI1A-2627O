@@ -21,3 +21,7 @@ diisi. Semester wajib diisi. Tanggal kunjungan wajib diisi. Jenis pesan wajib di
 studi wajib dipilih. Pesan wajib diisi. Minat wajib dipilih minimal satu. Jenis pesan tidak
 valid. Program studi tidak valid. muncul, Ketika mengirim semua menggunakan email yang tidak valid, menampilkan Email tidak valid.
 Tahap 2 - Menampilkan data yang diterima melalui POST : Setelah dikirim menampilkan data yang diterima oleh peladen 
+
+Pengujian Penerapan Session dan PRG :setelah pengalihan, data hasil formulir tetap dapat ditampilkan melalui session,
+meskipun halaman yang ditampilkan menggunakan permintaan GET.
+
