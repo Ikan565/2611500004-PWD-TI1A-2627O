@@ -207,9 +207,8 @@ switch ($programStudi) {
 
 		<section id="Rencana-Kegiatan" class="section">
     <h2>Rencana Kegiatan</h2>
-    
-    <!-- Formulir Rencana Kegiatan -->
-	<form action="index.php" method="POST" id="formRencanaKegiatan" onsubmit="return validasiRencanaKegiatan()">
+
+    <form action="index.php" method="POST" id="formRencanaKegiatan" onsubmit="return validasiRencanaKegiatan()">
     <div class="form-group">
       <label for="nama_kegiatan">Nama Kegiatan:</label>
       <input type="text" id="nama_kegiatan" name="nama_kegiatan" required class="input-form">
@@ -237,6 +236,23 @@ switch ($programStudi) {
 
     <button type="submit" name="btn_simpan">Kirim</button>
     <button type="reset">Batal</button>
+	</form>
+	<!-- Menampilkan Hasil Data Kegiatan yang Dikirim -->
+  <?php if (isset($_SESSION['sukses_kegiatan']) && isset($_SESSION['hasil_kegiatan'])): ?>
+              <?php echo htmlspecialchars($_SESSION['sukses_kegiatan']); ?>
+          </h3>
+          <p><strong>Nama Kegiatan:</strong> <?php echo htmlspecialchars($_SESSION['hasil_kegiatan']['nama']); ?></p>
+          <p><strong>Kategori:</strong> <?php echo htmlspecialchars($_SESSION['hasil_kegiatan']['kategori']); ?></p>
+          <p><strong>Tanggal:</strong> <?php echo htmlspecialchars($_SESSION['hasil_kegiatan']['tanggal']); ?></p>
+          <p><strong>Lokasi:</strong> <?php echo htmlspecialchars($_SESSION['hasil_kegiatan']['lokasi']); ?></p>
+          <p><strong>Deskripsi:</strong> <?php echo nl2br(htmlspecialchars($_SESSION['hasil_kegiatan']['deskripsi'])); ?></p>
+      </div>
+      <?php 
+      // Hapus session setelah ditampilkan (Post-Redirect-Get pattern)
+      unset($_SESSION['sukses_kegiatan']); 
+      unset($_SESSION['hasil_kegiatan']); 
+      ?>
+  <?php endif; ?>
   </div>
 </section>
 
