@@ -107,7 +107,7 @@ switch ($programStudi) {
 				<li><a href="#home">Beranda</a></li>
 				<li><a href="#about">Tentang</a></li>
 				<li><a href="#contact">Kontak</a></li>
-				<li><a href="Rencana kegiatan">Rencana kegiatan</a></li>
+				<li><a href="#Rencana-Kegiatan">Rencana Kegiatan</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -174,6 +174,45 @@ switch ($programStudi) {
 				</ol>
 			</article>
 		</section>
+
+		<section id="Rencana-Kegiatan" class="section">
+    <h2>Rencana Kegiatan</h2>
+    
+    <!-- Formulir Rencana Kegiatan -->
+    <form action="index.php#Rencana-Kegiatan" method="POST" id="formRencanaKegiatan">
+      <div class="form-group">
+        <label for="nama_kegiatan">Nama Kegiatan:</label>
+        <input type="text" id="nama_kegiatan" name="nama_kegiatan" required class="form-control">
+      </div>
+
+
+      <div class="form-group">
+        <label for="kategori_kegiatan">Kategori Kegiatan:</label>
+        <input type="text" id="kategori_kegiatan" name="kategori_kegiatan" placeholder="Masukkan kategori kegiatan" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="tanggal_pelaksanaan">Tanggal Pelaksanaan:</label>
+        <input type="date" id="tanggal_pelaksanaan" name="tanggal_pelaksanaan" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="lokasi_kegiatan">Lokasi Kegiatan:</label>
+        <input type="text" id="lokasi_kegiatan" name="lokasi_kegiatan" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="deskripsi_kegiatan">Deskripsi Kegiatan:</label>
+        <textarea id="deskripsi_kegiatan" name="deskripsi_kegiatan" rows="4" required class="form-control"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" name="btn_simpan" class="btn btn-primary">Kirim</button>
+        <button type="reset" class="btn btn-secondary">Batal</button>
+      </div>
+    </form>
+  </div>
+</section>
 
 		<section id="contact">
 			<h2>Kontak</h2>
