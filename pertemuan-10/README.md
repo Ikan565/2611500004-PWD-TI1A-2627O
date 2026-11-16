@@ -3,4 +3,5 @@
 2. Struktur Direktori pertemuan - 10 \ dan Persiapan Lingkungan MySQL : layanan Apache dan MySQL berjalan dan dapat diakses melalui localhost .
 3. Persiapan phpMyAdmin : phpMyAdmin dapat dibuka dan menampilkan antarmuka pengelolaan basis data
 MySQL.
-4. 
+4. Mengidentifikasi Data Formulir Kontak P10:  pada pertemuan - 10 \ index.php, kedelapan data tersebut
+sesuai dengan atribut name dan jenis input yang tersedia.
