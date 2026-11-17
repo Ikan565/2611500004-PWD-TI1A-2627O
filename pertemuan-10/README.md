@@ -40,3 +40,4 @@ sembilan kolom untuk diisi.
 14. Mengenal Perintah DDL CREATE DATABASE dan CREATE TABLE : hubungan antara perintah CREATE DATABASE , USE , dan CREATE nama basis data, nama tabel, dan sembilan atribut pada perintah SQL sesuai dengan struktur yang telah dibuat. 
 15. Memeriksa Struktur Tabel dan Memperbaiki Ketidaksesuaian : hasil pemeriksaan melalui tab Structure atau perintah DESCRIBE menunjukkan sembilan atribut sesuai rancangan.
 16.  Memasukkan Data Menggunakan Fasilitas Insert : data berhasil dimasukkan tanpa pesan kesalahan, DATA YANG DI KIRIM KAN MUNCUL DI BROWSE.
+17. Mengenal Perintah SQL INSERT sebagai Alternatif : nama tabel, daftar atribut, jumlah nilai, dan urutannya sesuai, dan di tambahkan.
