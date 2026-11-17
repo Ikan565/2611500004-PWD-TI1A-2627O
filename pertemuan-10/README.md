@@ -30,3 +30,6 @@ No. Atribut Tipe Data Keterangan
 7 minat VARCHAR(50) -
 8 prodi VARCHAR(2) -
 9 pesan VARCHAR(300) -
+
+10. Membuka phpMyAdmin : phpMyAdmin dapat dibuka dan menampilkan antarmuka pengelolaan basis data
+MySQL.
