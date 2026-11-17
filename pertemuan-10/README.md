@@ -19,4 +19,4 @@ No. Atribut Tipe Data Keterangan
 6 minat VARCHAR(50) Menyimpan satu atau beberapa pilihan minat sebagai teks.
 7 prodi VARCHAR(2) Menyimpan kode program studi, yaitu SI atau TI .
 8 pesan VARCHAR(300) Menyimpan isi pesan, maksimal 300 karakter
-
+8. Menentukan Primary Key dan AUTO_INCREMENT : Atribut id menggunakan tipe data INT dan atribut AUTO_INCREMENT : nilai id akan bertambah secara otomatis ketika data baru dimasukkan ke dalam tabel.
