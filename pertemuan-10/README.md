@@ -20,3 +20,13 @@ No. Atribut Tipe Data Keterangan
 7 prodi VARCHAR(2) Menyimpan kode program studi, yaitu SI atau TI .
 8 pesan VARCHAR(300) Menyimpan isi pesan, maksimal 300 karakter
 8. Menentukan Primary Key dan AUTO_INCREMENT : Atribut id menggunakan tipe data INT dan atribut AUTO_INCREMENT : nilai id akan bertambah secara otomatis ketika data baru dimasukkan ke dalam tabel.
+9. Memeriksa Rancangan Struktur Tabel :
+1 id INT PRIMARY KEY , AUTO_INCREMENT
+2 nama VARCHAR(50) -
+3 email VARCHAR(255) -
+4 semester TINYINT -
+5 tanggal DATE -
+6 jenis_pesan VARCHAR(20) -
+7 minat VARCHAR(50) -
+8 prodi VARCHAR(2) -
+9 pesan VARCHAR(300) -
