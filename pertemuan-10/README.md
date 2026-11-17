@@ -43,3 +43,4 @@ sembilan kolom untuk diisi.
 17. Mengenal Perintah SQL INSERT sebagai Alternatif : nama tabel, daftar atribut, jumlah nilai, dan urutannya sesuai, dan di tambahkan.
 18. Memeriksa Data Menggunakan Fasilitas Browse: data yang ditampilkan pada tab Browse sesuai dengan data yang dimasukkan, terdapat 2, dua dua nya sama.
 19. Memeriksa Kesesuaian Data dan Memperbaiki Ketidaksesuaian : seluruh data pada tabel sesuai dengan ketentuan atribut dan nilai yang digunakan oleh formulir P9. 
+20. Menentukan Pengaturan Ekspor : basis data db_pwd_ nim telah dipilih dan pengaturan ekspor menggunakan metode Quick serta format SQL.
