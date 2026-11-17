@@ -38,3 +38,4 @@ MySQL.
 sembilan kolom untuk diisi.
 13. Mengisi Struktur Sembilan Kolom : Pastikan tabel berhasil dibuat dengan sembilan kolom. Periksa nama atribut, tipe data, panjang karakter, serta ketentuan PRIMARY KEY dan AUTO_INCREMENT pada atribut id . 
 14. Mengenal Perintah DDL CREATE DATABASE dan CREATE TABLE : hubungan antara perintah CREATE DATABASE , USE , dan CREATE nama basis data, nama tabel, dan sembilan atribut pada perintah SQL sesuai dengan struktur yang telah dibuat. 
+15. Memeriksa Struktur Tabel dan Memperbaiki Ketidaksesuaian : hasil pemeriksaan melalui tab Structure atau perintah DESCRIBE menunjukkan sembilan atribut sesuai rancangan.
