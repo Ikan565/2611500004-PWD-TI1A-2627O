@@ -34,3 +34,5 @@ No. Atribut Tipe Data Keterangan
 10. Membuka phpMyAdmin : phpMyAdmin dapat dibuka dan menampilkan antarmuka pengelolaan basis data
 MySQL.
 11. Membuat Basis Data db_pwd_ nim : basis data berhasil dibuat dan namanya sesuai dengan NIM masing-masing, basis data muncul.
+12. Membuat Tabel tbl_kontak_ nim : Formulir tabel menampilkan nama tabel yang benar dan menyediakan
+sembilan kolom untuk diisi.
