@@ -9,3 +9,14 @@ sesuai dengan atribut name dan jenis input yang tersedia.
 6. Menentukan Nama Basis Data dan Tabel:
 Nama basis data : db_pwd_2611500004
 Nama tabel : tbl_kontak_2611500004
+7. Menentukan Atribut dan Tipe Data : 
+No. Atribut Tipe Data Keterangan
+1 nama VARCHAR(50) Menyimpan nama lengkap, maksimal 50 karakter.
+2 email VARCHAR(255) Menyimpan alamat email.
+3 semester TINYINT Menyimpan nomor semester.
+4 tanggal DATE Menyimpan tanggal kunjungan.
+5 jenis_pesan VARCHAR(20) Menyimpan jenis pesan, seperti pertanyaan atau saran.
+6 minat VARCHAR(50) Menyimpan satu atau beberapa pilihan minat sebagai teks.
+7 prodi VARCHAR(2) Menyimpan kode program studi, yaitu SI atau TI .
+8 pesan VARCHAR(300) Menyimpan isi pesan, maksimal 300 karakter
+
