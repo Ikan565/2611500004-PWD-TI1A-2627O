@@ -37,3 +37,4 @@ MySQL.
 12. Membuat Tabel tbl_kontak_ nim : Formulir tabel menampilkan nama tabel yang benar dan menyediakan
 sembilan kolom untuk diisi.
 13. Mengisi Struktur Sembilan Kolom : Pastikan tabel berhasil dibuat dengan sembilan kolom. Periksa nama atribut, tipe data, panjang karakter, serta ketentuan PRIMARY KEY dan AUTO_INCREMENT pada atribut id . 
+14. Mengenal Perintah DDL CREATE DATABASE dan CREATE TABLE : hubungan antara perintah CREATE DATABASE , USE , dan CREATE nama basis data, nama tabel, dan sembilan atribut pada perintah SQL sesuai dengan struktur yang telah dibuat. 
