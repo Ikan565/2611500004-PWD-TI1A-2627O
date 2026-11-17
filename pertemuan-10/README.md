@@ -41,3 +41,4 @@ sembilan kolom untuk diisi.
 15. Memeriksa Struktur Tabel dan Memperbaiki Ketidaksesuaian : hasil pemeriksaan melalui tab Structure atau perintah DESCRIBE menunjukkan sembilan atribut sesuai rancangan.
 16.  Memasukkan Data Menggunakan Fasilitas Insert : data berhasil dimasukkan tanpa pesan kesalahan, DATA YANG DI KIRIM KAN MUNCUL DI BROWSE.
 17. Mengenal Perintah SQL INSERT sebagai Alternatif : nama tabel, daftar atribut, jumlah nilai, dan urutannya sesuai, dan di tambahkan.
+18. Memeriksa Data Menggunakan Fasilitas Browse: data yang ditampilkan pada tab Browse sesuai dengan data yang dimasukkan, terdapat 2, dua dua nya sama.
