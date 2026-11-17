@@ -36,3 +36,4 @@ MySQL.
 11. Membuat Basis Data db_pwd_ nim : basis data berhasil dibuat dan namanya sesuai dengan NIM masing-masing, basis data muncul.
 12. Membuat Tabel tbl_kontak_ nim : Formulir tabel menampilkan nama tabel yang benar dan menyediakan
 sembilan kolom untuk diisi.
+13. Mengisi Struktur Sembilan Kolom : Pastikan tabel berhasil dibuat dengan sembilan kolom. Periksa nama atribut, tipe data, panjang karakter, serta ketentuan PRIMARY KEY dan AUTO_INCREMENT pada atribut id . 
