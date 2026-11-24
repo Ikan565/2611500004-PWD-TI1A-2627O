@@ -15,3 +15,4 @@ kode yang membutuhkan variabel $koneksi . Pemeriksaan kegagalan koneksi tetap be
 13. Mengenal Perintah SQL SELECT :  mysqli_query() menggunakan variabel $koneksi dari berkas koneksi.php dan
 variabel $sql yang telah ditentukan sebelumnya.
 14. Menjalankan Kueri Menggunakan mysqli_query() : fungsi mysqli_query() menggunakan variabel $koneksi dari berkas koneksi.php dan variabel $sql yang telah ditentukan sebelumnya.
+15. Memeriksa dan Menguji Keberhasilan Kueri SELECT : Menampilkan pesan Kueri SELECT gagal dijalankan.
