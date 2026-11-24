@@ -11,3 +11,4 @@
 10. Mengintegrasikan Koneksi pada index.php : bagian awal index.php kedua berkas dimuat menggunakan require_once() dan tidak terdapat kesalahan penulisan nama berkas.
 11. Memeriksa Ketersediaan Koneksi pada Halaman Utama : index.php memuat koneksi.php sebelum bagian
 kode yang membutuhkan variabel $koneksi . Pemeriksaan kegagalan koneksi tetap berada didalam koneksi.php . 
+12.  Menguji Integrasi PHP dengan MySQL : halaman utama dapat diakses tanpa menampilkan pesan Koneksi ke basis data gagal.
