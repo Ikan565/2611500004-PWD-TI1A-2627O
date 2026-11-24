@@ -9,3 +9,5 @@
 8. Memeriksa dan Menguji Keberhasilan Koneksi : koneksi berhasil, halaman menampilkan pesan Koneksi ke basis data berhasil. 
 9. Menguji Penanganan Kegagalan Koneksi : kondisi kegagalan koneksi dapat diamati dan pesan yang ditampilkan sesuai dengan kode. parameter $database telah dikembalikan ke nama basis data yang benar, koneksi.php menampilkan pesan kegagalan tidak lagi muncul.
 10. Mengintegrasikan Koneksi pada index.php : bagian awal index.php kedua berkas dimuat menggunakan require_once() dan tidak terdapat kesalahan penulisan nama berkas.
+11. Memeriksa Ketersediaan Koneksi pada Halaman Utama : index.php memuat koneksi.php sebelum bagian
+kode yang membutuhkan variabel $koneksi . Pemeriksaan kegagalan koneksi tetap berada didalam koneksi.php . 
