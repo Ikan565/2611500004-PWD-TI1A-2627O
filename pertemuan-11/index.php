@@ -7,6 +7,9 @@ require_once("fungsi.php"); #Penggunaan require_once() memastikan berkas tersebu
 #P11
 require_once("koneksi.php");
 
+// P11: Mengambil data kontak dari basis data menggunakan operasi READ.
+$sql = "SELECT * FROM tbl_kontak_2611500004";
+
 // P9: Memproses data formulir dan menyimpannya ke dalam session.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 	$nama = trim((string) ($_POST["nama"] ?? ""));
