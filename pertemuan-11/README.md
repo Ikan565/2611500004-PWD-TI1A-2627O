@@ -8,3 +8,4 @@
 7. Membuat Koneksi Menggunakan mysqli_connect() : parameter koneksi, pemanggilan mysqli_report() , fungsi mysqli_connect() , dan pemeriksaan kegagalan koneksi telah ditulis sesuai urutan.
 8. Memeriksa dan Menguji Keberhasilan Koneksi : koneksi berhasil, halaman menampilkan pesan Koneksi ke basis data berhasil. 
 9. Menguji Penanganan Kegagalan Koneksi : kondisi kegagalan koneksi dapat diamati dan pesan yang ditampilkan sesuai dengan kode. parameter $database telah dikembalikan ke nama basis data yang benar, koneksi.php menampilkan pesan kegagalan tidak lagi muncul.
+10. Mengintegrasikan Koneksi pada index.php : bagian awal index.php kedua berkas dimuat menggunakan require_once() dan tidak terdapat kesalahan penulisan nama berkas.
