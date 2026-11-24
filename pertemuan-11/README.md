@@ -6,3 +6,4 @@
 5.  Menentukan Parameter Koneksi : Nama basis data sesuai dengan yang telah dibuat pada P10 dan tidak terdapat kesalahan penulisan.
 6. Menggunakan mysqli_report(MYSQLI_REPORT_OFF) : pemanggilan mysqli_report(MYSQLI_REPORT_OFF); telah ditulis setelah deklarasi parameter koneksi. 
 7. Membuat Koneksi Menggunakan mysqli_connect() : parameter koneksi, pemanggilan mysqli_report() , fungsi mysqli_connect() , dan pemeriksaan kegagalan koneksi telah ditulis sesuai urutan.
+8. Memeriksa dan Menguji Keberhasilan Koneksi : koneksi berhasil, halaman menampilkan pesan Koneksi ke basis data berhasil. 
