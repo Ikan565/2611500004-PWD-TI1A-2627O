@@ -17,3 +17,4 @@ variabel $sql yang telah ditentukan sebelumnya.
 14. Menjalankan Kueri Menggunakan mysqli_query() : fungsi mysqli_query() menggunakan variabel $koneksi dari berkas koneksi.php dan variabel $sql yang telah ditentukan sebelumnya.
 15. Memeriksa dan Menguji Keberhasilan Kueri SELECT : Menampilkan pesan Kueri SELECT gagal dijalankan.
 16. Mengambil Hasil Kueri Menggunakan mysqli_fetch_assoc() : kode dapat mengambil seluruh baris hasil kueri dan menyimpannya ke dalam $dataKontak.
+17. Memeriksa Hasil Pengambilan Data :  setiap baris data memiliki indeks asosiatif sesuai nama kolom tabel, yaitu id , nama, email,smester , tanggal , jenis_pesan , minat , prodi , dan pesan .
