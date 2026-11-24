@@ -14,3 +14,4 @@ kode yang membutuhkan variabel $koneksi . Pemeriksaan kegagalan koneksi tetap be
 12.  Menguji Integrasi PHP dengan MySQL : halaman utama dapat diakses tanpa menampilkan pesan Koneksi ke basis data gagal.
 13. Mengenal Perintah SQL SELECT :  mysqli_query() menggunakan variabel $koneksi dari berkas koneksi.php dan
 variabel $sql yang telah ditentukan sebelumnya.
+14. Menjalankan Kueri Menggunakan mysqli_query() : fungsi mysqli_query() menggunakan variabel $koneksi dari berkas koneksi.php dan variabel $sql yang telah ditentukan sebelumnya.
