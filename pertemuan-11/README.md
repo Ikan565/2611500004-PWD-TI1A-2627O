@@ -18,3 +18,5 @@ variabel $sql yang telah ditentukan sebelumnya.
 15. Memeriksa dan Menguji Keberhasilan Kueri SELECT : Menampilkan pesan Kueri SELECT gagal dijalankan.
 16. Mengambil Hasil Kueri Menggunakan mysqli_fetch_assoc() : kode dapat mengambil seluruh baris hasil kueri dan menyimpannya ke dalam $dataKontak.
 17. Memeriksa Hasil Pengambilan Data :  setiap baris data memiliki indeks asosiatif sesuai nama kolom tabel, yaitu id , nama, email,smester , tanggal , jenis_pesan , minat , prodi , dan pesan .
+18. Menguji Penyajian Data dan Kondisi Ketika Tidak Ada Data Kontak : aplikasi berhasil menampilkan data kontak dari database sesuai dengan atribut yang tersedia. Aplikasi juga dapat menampilkan pesan "Belum ada data kontak yang tersimpan" ketika tabel kosong. Setelah data dimasukkan kembali, data kontak dapat ditampilkan dengan baik.
+19.
